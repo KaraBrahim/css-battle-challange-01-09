@@ -1,0 +1,27 @@
+  body{
+    height: 100vh;
+    width: 100vw;
+    background:#E25C57;
+    position:relative;
+    margin:0;
+  }
+  .container{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    gap:20px;
+  }
+  .bar{
+    width:100%;
+    height:30px;
+    background:#F4DA64;
+  }
+  .top{
+    top:0;
+    right:0;
+  }
+  .bottom{
+    bottom:0;
+    left:0;
+  }
